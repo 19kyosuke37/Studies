@@ -6,7 +6,8 @@ public class KakuchoFor {
         int sum =0;
         double average = 0.0;
         
-     //↓for(データ型　変数名　：　利用する配列やコレクション名）   
+     //↓for(データ型　変数名　：　利用する配列やコレクション名）  
+     //：の後に記載された配列からひとつづつデータが取り出され、：前の変数に代入されていくというながれ   
         for(int i : scores) {
             sum = sum +i;
         }
