@@ -16,9 +16,10 @@ public class Character {
         this.offense = offense;
         this.difense = difense;
     }
-    
+ //これはststicな（静的な）すべてインスタンスで固定のもの
+ //class名.staticのメソッドと入力することで出力できる→PRCのmainクラスへ
     public static void seiteki() {
-        System.out.println("Characterクラスはキャラクターのこたいちについて扱う");
+        System.out.println("Characterクラスはキャラクターの個体値について扱う");
     }
 
 //↓これはCharacterクラスのインスタンスをひきすうにするってだけ。opponentってのはこのメソッドで定義した変数ってだけ。
